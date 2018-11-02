@@ -1,4 +1,13 @@
 # This is netlify's redirect definition file: https://www.netlify.com/docs/redirects/
 # Redirect default Netlify subdomain to primary domain
-https://deploy-preview-* https://netlify-playground.netlify.com/ 301!
-/github https://github.com/dynamis/netlify-playground
+https://deploy-preview-*  https://netlify-playground.netlify.com/ 301!
+
+https://deploy-preview-1--netlify-playground.netlify.com/*  https://netlify-playground.netlify.com/ 301!
+https://deploy-preview-2--netlify-playground.netlify.com/*  https://netlify-playground.netlify.com/ 301!
+https://deploy-preview-3--netlify-playground.netlify.com/*  https://netlify-playground.netlify.com/ 301!
+https://deploy-preview-4--netlify-playground.netlify.com/*  https://netlify-playground.netlify.com/ 301!
+https://deploy-preview-5--netlify-playground.netlify.com/*  https://netlify-playground.netlify.com/ 301!
+https://deploy-preview-6--netlify-playground.netlify.com/*  https://netlify-playground.netlify.com/ 301!
+
+# Redirect to GitHub
+/github  https://github.com/dynamis/netlify-playground
