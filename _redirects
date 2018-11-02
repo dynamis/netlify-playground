@@ -1,5 +1,5 @@
 # This is netlify's redirect definition file: https://www.netlify.com/docs/redirects/
-# Redirect default Netlify subdomain to primary domain
+# Redirect Deploy Preview
 https://deploy-preview-*  https://netlify-playground.netlify.com/ 301!
 
 https://deploy-preview-1--netlify-playground.netlify.com/*  https://netlify-playground.netlify.com/ 301!
