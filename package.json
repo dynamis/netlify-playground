@@ -1,0 +1,23 @@
+{
+  "name": "netlify-playground",
+  "version": "0.0.1",
+  "description": "readme",
+  "main": "index.js",
+  "scripts": {
+    "touch": "touch touched-file",
+    "echo": "echo 'echo text' >> echoed-file",
+    "cp": "cp touched-file copied-file",
+    "touch-cp": "touch touched-file && cp touched-file copied-file",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dynamis/netlify-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dynamis/netlify-playground/issues"
+  },
+  "homepage": "https://github.com/dynamis/netlify-playground#readme"
+}
